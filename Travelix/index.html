@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelix - Explore Your Dream Destination</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="logo">🌐 Travelix</a>
+        <div class="menu-toggle" id="mobile-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links" id="nav-menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="recommendations.html">Recommendations</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#" class="btn-login">Login</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1>Explore Your Dream Destination</h1>
+        <p>Discover the best places to visit around you</p>
+        
+        <div class="search-container">
+            <div class="search-field">
+                <label>Where To?</label>
+                <input type="text" placeholder="Search places...">
+            </div>
+            <div class="search-field">
+                <label>Category</label>
+                <select>
+                    <option>All Types</option>
+                    <option>Mountains</option>
+                    <option>Beaches</option>
+                    <option>Historical</option>
+                </select>
+            </div>
+            <button class="btn-search">Search</button>
+        </div>
+    </header>
+
+    <section class="section-container">
+        <div class="section-header">
+            <h2>🔥 Popular Places</h2>
+        </div>
+        <div class="card-grid">
+            
+            <div class="card">
+                <div class="card-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=600&q=80" alt="Taj Mahal">
+                </div>
+                <div class="card-content">
+                    <span class="card-location">📍 Agra, Uttar Pradesh</span>
+                    <h3 class="card-title">Taj Mahal</h3>
+                    <p class="card-description">An immense mausoleum of white marble, built in Agra by Mughal emperor Shah Jahan.</p>
+                    <a href="destinations.html" class="btn-card">Explore</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1496372412473-e8548ffd82bc?auto=format&fit=crop&w=600&q=80" alt="Marine Drive">
+                </div>
+                <div class="card-content">
+                    <span class="card-location">📍 Mumbai, Maharashtra</span>
+                    <h3 class="card-title">Marine Drive</h3>
+                    <p class="card-description">A 3-kilometre-long promenade along the Netaji Subhash Chandra Bose Road in South Mumbai.</p>
+                    <a href="destinations.html" class="btn-card">Explore</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=600&q=80" alt="Pachmarhi">
+                </div>
+                <div class="card-content">
+                    <span class="card-location">📍 Hoshangabad, Madhya Pradesh</span>
+                    <h3 class="card-title">Pachmarhi</h3>
+                    <p class="card-description">Widely known as Satpura ki Rani, it is a gorgeous hill station nestled in a valley of Satpura Range.</p>
+                    <a href="destinations.html" class="btn-card">Explore</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">🌐 Travelix</div>
+            <p>Your ultimate digital companion for seamless visual itineraries.</p>
+        </div>
+        <p>&copy; 2026 Travelix | Made by You 💙</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

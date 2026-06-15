@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelix - Contact Support</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="logo">🌐 Travelix</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="recommendations.html">Recommendations</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="section-container">
+        <div class="contact-wrapper">
+            
+            <div class="contact-info">
+                <h3>Get In Touch</h3>
+                <p style="color: var(--text-muted); margin-bottom: 30px;">Have questions regarding recommended travel packages? Drop a line below.</p>
+                
+                <div class="contact-method">
+                    <strong>📧 Email Support</strong>
+                    <p>helpdesk@travelix-demo.com</p>
+                </div>
+                <div class="contact-method">
+                    <strong>📞 Phone Office</strong>
+                    <p>+91 98765 43210</p>
+                </div>
+                <div class="contact-method">
+                    <strong>🌐 Social Links</strong>
+                    <p style="margin-top: 5px; color: var(--secondary-color); font-weight: 600;">LinkedIn • GitHub • Twitter</p>
+                </div>
+            </div>
+
+            <form class="contact-form" id="travelix-contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" placeholder="John Doe" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="john@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message Details</label>
+                    <textarea id="message" rows="5" placeholder="Write your travel query here..." required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Travelix | Made by You 💙</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

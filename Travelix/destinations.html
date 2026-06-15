@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelix - Destinations Catalog</title>
+    <link class="stylesheet" href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="logo">🌐 Travelix</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destinations.html" class="active">Destinations</a></li>
+            <li><a href="recommendations.html">Recommendations</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="section-container">
+        <div class="section-header">
+            <h2>🗺️ All Destinations</h2>
+        </div>
+
+        <div class="filter-container">
+            <button class="btn-filter active" data-filter="all">All Places</button>
+            <button class="btn-filter" data-filter="mountains">Mountains</button>
+            <button class="btn-filter" data-filter="beaches">Beaches</button>
+            <button class="btn-filter" data-filter="historical">Historical</button>
+            <button class="btn-filter" data-filter="cities">Cities</button>
+        </div>
+
+        <div class="card-grid" id="destinations-container">
+            
+            <div class="card destination-card" data-category="historical">
+                <div class="card-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=600&q=80" alt="Taj Mahal">
+                    <span class="card-tag">Historical</span>
+                </div>
+                <div class="card-content">
+                    <span class="card-location">📍 Agra</span>
+                    <h3 class="card-title">Taj Mahal</h3>
+                    <p class="card-description">Iconic ivory-white marble masterpiece on the southern bank of the Yamuna River.</p>
+                    <a href="#" class="btn-card">Explore Details</a>
+                </div>
+            </div>
+
+            <div class="card destination-card" data-category="beaches">
+                <div class="card-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=600&q=80" alt="Goa">
+                    <span class="card-tag">Beaches</span>
+                </div>
+                <div class="card-content">
+                    <span class="card-location">📍 Goa</span>
+                    <h3 class="card-title">Goa Beaches</h3>
+                    <p class="card-description">Famous for its pristine coastline stretching along the majestic Arabian Sea.</p>
+                    <a href="#" class="btn-card">Explore Details</a>
+                </div>
+            </div>
+
+            <div class="card destination-card" data-category="mountains">
+                <div class="card-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=600&q=80" alt="Manali">
+                    <span class="card-tag">Mountains</span>
+                </div>
+                <div class="card-content">
+                    <span class="card-location">📍 Himachal Pradesh</span>
+                    <h3 class="card-title">Manali Valley</h3>
+                    <p class="card-description">A high-altitude Himalayan resort town known for backpacking and skiing tracks.</p>
+                    <a href="#" class="btn-card">Explore Details</a>
+                </div>
+            </div>
+
+            <div class="card destination-card" data-category="cities">
+                <div class="card-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1496372412473-e8548ffd82bc?auto=format&fit=crop&w=600&q=80" alt="Marine Drive">
+                    <span class="card-tag">Cities</span>
+                </div>
+                <div class="card-content">
+                    <span class="card-location">📍 Mumbai</span>
+                    <h3 class="card-title">Marine Drive</h3>
+                    <p class="card-description">A scenic arc-shaped boulevard providing an urban coastal escape.</p>
+                    <a href="#" class="btn-card">Explore Details</a>
+                </div>
+            </div>
+
+            <div class="card destination-card" data-category="historical">
+                <div class="card-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=600&q=80" alt="Jaipur">
+                    <span class="card-tag">Historical</span>
+                </div>
+                <div class="card-content">
+                    <span class="card-location">📍 Rajasthan</span>
+                    <h3 class="card-title">Jaipur Pink City</h3>
+                    <p class="card-description">Steeped in royal legacy, featuring the magnificent Hawa Mahal palace complex.</p>
+                    <a href="#" class="btn-card">Explore Details</a>
+                </div>
+            </div>
+
+            <div class="card destination-card" data-category="mountains">
+                <div class="card-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=600&q=80" alt="Pachmarhi">
+                    <span class="card-tag">Mountains</span>
+                </div>
+                <div class="card-content">
+                    <span class="card-location">📍 Madhya Pradesh</span>
+                    <h3 class="card-title">Pachmarhi Hills</h3>
+                    <p class="card-description">Satpura's hidden jewel packed with lush green valleys and waterfalls.</p>
+                    <a href="#" class="btn-card">Explore Details</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Travelix | Made by You 💙</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
